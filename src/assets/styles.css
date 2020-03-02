@@ -18,3 +18,12 @@
     #f6d355 94.95%
   );
 }
+
+.gradient-background-pink-yellow {
+  background: linear-gradient(
+    122.24deg,
+    #d53f8c 20.01%,
+    #f67255 48.16%,
+    #f9be67 83.7%
+  );
+}

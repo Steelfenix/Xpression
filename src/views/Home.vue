@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Ayudar from '@/components/Ayudar.vue';
-import AlgunosProductos from '@/components/AlgunosProductos.vue';
-import Clientes from '@/components/NuestrosClientes.vue';
+import Header from '@/components/Home/Header.vue';
+import Ayudar from '@/components/Home/Ayudar.vue';
+import AlgunosProductos from '@/components/Home/AlgunosProductos.vue';
+import Clientes from '@/components/Home/NuestrosClientes.vue';
 
 export default {
   name: 'Home',

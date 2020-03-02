@@ -1,7 +1,7 @@
 <template>
   <header class="relative h-168 w-full">
     <div
-      class="absolute overflow-hidden gradient-background h-112 w-full transform origin-top-left -skew-y-12"
+      class="absolute overflow-hidden gradient-background h-112 w-full transform origin-top-left -skew-y-12 shadow-md"
     >
       <span
         style="top:59px"

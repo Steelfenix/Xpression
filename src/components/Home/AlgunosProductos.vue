@@ -1,7 +1,7 @@
 <template>
   <section class="mt-20 relative h-100 w-full">
     <div
-      class="absolute overflow-hidden gradient-background-red-yellow h-100 w-full transform origin-top-left skew-y-12"
+      class="absolute overflow-hidden gradient-background-red-yellow h-100 w-full transform origin-top-left skew-y-12 shadow-md"
     >
       <span class="absolute right-0 h-10 w-32 bg-orange-300"></span
       ><span
@@ -26,7 +26,7 @@
             <div class="mt-1 w-22 h-22 shadow-md bg-white rounded-lg"></div>
           </div>
         </div>
-        <a class="mt-2 mr-8 self-end text-sm text-white flex items-center"
+        <a class="mt-2 mr-12 self-end text-sm text-white flex items-center"
           >Ver más<span>
             <svg
               fill="none"
