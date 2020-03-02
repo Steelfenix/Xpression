@@ -1,0 +1,20 @@
+@import url('./css/tailwind.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.gradient-background {
+  background: linear-gradient(
+    155deg,
+    #5533fe 15.88%,
+    rgba(213, 63, 140, 0.96) 70.8%,
+    #f687b3 89.11%
+  );
+}
+
+.gradient-background-red-yellow {
+  background: linear-gradient(
+    130deg,
+    #f67255 22.26%,
+    rgba(255, 162, 77, 0.87) 58.98%,
+    #f6d355 94.95%
+  );
+}
