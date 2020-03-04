@@ -76,6 +76,8 @@
 </template>
 
 <script>
+import Navbar from '@/components/Shared/Navbar.vue';
+
 export default {
   name: 'Header'
 };

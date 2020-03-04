@@ -1,6 +1,6 @@
 <template>
   <section class="mt-12 p-4 flex flex-col w-full items-center">
-    <h2 class="mt-8 text-gray-800 text-2xl font-extrabold leading-none">
+    <h2 class="mt-8 text-pink-600 text-2xl font-extrabold leading-none">
       Nuestros Clientes
     </h2>
     <div class="mt-10 flex w-full">
