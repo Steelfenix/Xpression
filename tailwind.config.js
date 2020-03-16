@@ -8,7 +8,9 @@ module.exports = {
         '96': '22rem',
         '100': '26rem',
         '112': '32rem',
-        '168': '42rem'
+        '168': '42rem',
+        '252': '46rem',
+        '256': '48rem'
       },
       fontFamily: {
         sans: ['Poppins', 'Sans-serif']
