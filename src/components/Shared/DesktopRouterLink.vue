@@ -9,7 +9,9 @@
       @click="navigate"
     >
       <span v-html="svg" :class="isExactActive && 'text-gray-100'"></span>
-      <span class="ml-3 text-md ">{{ text }}</span>
+      <span class="ml-3 text-md " :class="isExactActive && 'font-extrabold'">
+        {{ text }}
+      </span>
     </li>
   </router-link>
 </template>

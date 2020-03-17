@@ -23,13 +23,7 @@
         >
           Contacto
         </h2>
-        <div class="mt-8 overflow-hidden rounded-md shadow-md">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.9007506363228!2d-100.2765095849788!3d25.773841583631224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629358f99be5ef%3A0x1e36f5e9377f0c1!2sDel%20Encino%20811%2C%20Privadas%20de%20An%C3%A1huac%2C%20Cerrada%20de%20An%C3%A1huac%20Residencial%2C%2066059%20Cd%20Gral%20Escobedo%2C%20N.L.!5e0!3m2!1ses-419!2smx!4v1583121943911!5m2!1ses-419!2smx"
-            width="400"
-            height="250"
-          ></iframe>
-        </div>
+
         <div
           class="mt-4 p-8 w-full h-56 flex flex-col rounded-sm bg-white border border-gray-200 rounded-md shadow-lg"
         >

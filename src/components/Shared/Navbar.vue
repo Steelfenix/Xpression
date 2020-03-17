@@ -43,7 +43,7 @@
           </svg>
         </div>
         <div
-          class="origin-top-right -mt-8 w-48 bg-gray-100 rounded-md shadow-md"
+          class="origin-top-right -mt-10 w-48 bg-gray-100 rounded-md shadow-md"
           v-show="menuIsOpen"
           v-closable="{ handler: 'closeMenu', exclude: ['hamburger'] }"
         >
