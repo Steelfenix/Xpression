@@ -4381,12 +4381,12 @@
             </h1>
           </div>
         </div>
-        <div class="flex flex-col">
+        <div class="flex flex-col px-8">
           <h2 class="mt-12 text-white text-3xl font-extrabold">
             ¿Quienes Somos?
           </h2>
           <p
-            class="mt-2 w-3/4 text-xl text-indigo-100 font-thin leading-none tracking-wide"
+            class="sm:text-base mt-2 w-2/4 text-xl text-indigo-100 font-thin leading-none tracking-wide"
           >
             Agencia de Marketing y Publicidad en Monterrey dedicada a la
             importación y comercialización de artículos publicitarios

@@ -1,26 +1,7 @@
 <template>
-  <section class="md:my-16 md:flex mt-20 px-4">
-    <div class="md:w-1/2 flex flex-col">
-      <h2
-        class="md:text-3xl lg:text-4xl mt-8 text-indigo-700 text-2xl font-extrabold leading-none"
-      >
-        ¿Como te podemos ayudar?
-      </h2>
-      <ul
-        class="md:text-xl lg:text-3xl mt-8 w-4/5 text-xl text-gray-900 font-thin leading-none"
-      >
-        <li><span class="text-indigo-700">1.</span> Artículos Promocionales</li>
-        <li><span class="text-indigo-700">2.</span> Impresión</li>
-        <li><span class="text-indigo-700">3.</span> Offset</li>
-        <li><span class="text-indigo-700">4.</span> Display</li>
-        <li><span class="text-indigo-700">5.</span> Textiles</li>
-        <li><span class="text-indigo-700">6.</span> Uniformes</li>
-      </ul>
-    </div>
-    <div class="hidden md:block w-1/2">
+  <section class="md:px-16 md:my-16 md:flex md:flex-col mt-20 px-4">
+    <div class="hidden md:block w-1/2 self-center">
       <svg
-        id="70bb2b30-be60-4de4-9e4b-86e23973444e"
-        data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         class="w-full"
@@ -357,7 +338,7 @@
         <path
           d="M411.67,361.13l4.94-.91s2.54,17-.77,21.44h-5.69Z"
           transform="translate(-28.45 -12.11)"
-          fill="#cbcdda"
+          fill="#cbcdta"
         />
         <path
           d="M312.52,392.12s15.12-9,16.92,2.37,4.19,30.9,4.19,30.9l4.18,24.81,5.42,49.72-.76,8.46S326.4,503,322.6,504.86,315.75,484,315.75,484l-6.27-23.58-1-50Z"
@@ -399,7 +380,7 @@
         <path
           d="M237.8,478.24s81.94,7.23,85-3.23-8.36-38.78-8.36-38.78l3.66-39.55.14-1.52S308,352.38,308.34,349c.35-3.07-16.53-39-20-46.31l-.63-1.32-.65.38-.28.17-4,2.34-15.87-3.74-19.1-10L246,399.92Z"
           transform="translate(-28.45 -12.11)"
-          fill="#cbcdda"
+          fill="#cbcdta"
         />
         <path
           d="M280.39,302.66s5.61-1.52,7.8,4.09a57.66,57.66,0,0,0,3,7l2.19,13,4,20.53,2.94,91L299,454.48l-7.32-13-1.33-85v-10.6a76.71,76.71,0,0,0-6.1-26.56l-1-2.39-6.37-8.17Z"
@@ -419,7 +400,7 @@
         <path
           d="M257.58,276.9s19.39,20.54,26.23,23c0,0-3.42,15.59-6.84,18.63,0,0-20.35-20.75-24-22.43l-3-7.39Z"
           transform="translate(-28.45 -12.11)"
-          fill="#cbcdda"
+          fill="#cbcdta"
         />
         <path
           d="M286.58,301.35l.2.53L293,318.54,304.1,350s.11.32.3.92c1.84,5.72,11.74,36.77,13.69,45.8l.14-1.52S308,352.38,308.34,349c.35-3.07-16.53-39-20-46.31-.55-.38-1-.7-1.28-.94Z"
@@ -468,7 +449,7 @@
         />
         <polygon
           points="189.49 490.09 190.34 497.69 200.71 493.89 208.31 482.39 202.61 477.92 189.49 490.09"
-          fill="#cbcdda"
+          fill="#cbcdta"
         />
         <path
           d="M218.3,472.73l5.42.55L276,478.5a84.69,84.69,0,0,0,25.12-1.23l24.23-4.85c-1.12-3.93-2-6.34-2-6.34-2.62,1.86-17.62,4-25.38,5.81a44.16,44.16,0,0,1-13,1A288.83,288.83,0,0,1,227,462.3l-2.36,2.82Z"
@@ -529,6 +510,191 @@
           fill="#474463"
         />
       </svg>
+    </div>
+    <div class="md:w-full flex flex-col">
+      <h2
+        class="lg:text-5xl mt-8 text-indigo-700 text-4xl font-extrabold leading-none"
+      >
+        ¿Como te podemos ayudar?
+      </h2>
+      <ul
+        class="md:flex-row md:text-xl lg:text-3xl flex-col flex mt-8 w-full text-xl text-gray-900 font-thin leading-none"
+      >
+        <li class="md:w-1/3 w-full flex flex-col">
+          <dt class="flex items-center text-purple-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 "
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <defs />
+              <path
+                d="M35.09 21.79l-8.84-8.89a3.06 3.06 0 00-2.14-.9 3 3 0 00-2.13.87l-9 8.84a3.07 3.07 0 00-.98 2.22 3.13 3.13 0 00.92 2.24l9 8.94a3.05 3.05 0 002.15.89 3 3 0 002.14-.9l5.44-5.45h-.54L26 34.83a2.66 2.66 0 01-3.76 0l-9-8.94a2.74 2.74 0 01-.81-2A2.79 2.79 0 0113.2 22l9-8.83a2.65 2.65 0 011.86-.76 2.68 2.68 0 011.89.79l8.84 8.89a2.68 2.68 0 01.8 1.93 2.61 2.61 0 01-.09.69h.4A3.92 3.92 0 0036 24a3.11 3.11 0 00-.91-2.21z"
+                transform="translate(-12 -12)"
+              />
+              <path
+                d="M29.21 26.45c.34-5.44-2.84-5.59-2.84-5.59 1.61 1.32 1.15 5.4 1.15 5.4zM24 20.74s-3.33-.07-3.52 4.16h1.91c-.04 0 .27-3.38 1.61-4.16z"
+                transform="translate(-12 -12)"
+              />
+              <path
+                d="M25.72 20.67s0-.24-.49-.32-.58.24-.58.24c-1.76.89-2 4.31-2 4.31 3.64.35 4.52 1.13 4.52 1.13.51-4.63-1.45-5.36-1.45-5.36z"
+                transform="translate(-12 -12)"
+              />
+              <path
+                d="M25.07 27.54A6.26 6.26 0 0027 26.3a11.87 11.87 0 00-6.66-1.05s-2.34.7-3 1.55c0 0 2.83-.54 4.4.27s2.07 1.05 3.33.47z"
+                transform="translate(-12 -12)"
+              />
+              <path
+                d="M17.07 27.19s1.11 1 2.64-.31a4.76 4.76 0 00-2.64.31z"
+                transform="translate(-12 -12)"
+              />
+            </svg>
+            <span class="ml-4">Artículos</span>
+          </dt>
+          <dd class="md:ml-8 mt-4 ml-0">
+            Ofrecemos soluciones integrales a través de una gran variedad de
+            artículos promocionales.
+          </dd>
+        </li>
+        <li class="md:w-1/3 md:mt-0 mt-4 w-full flex flex-col">
+          <dt class="flex items-center text-purple-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 "
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <defs />
+              <path
+                class="cls-1"
+                d="M22.23 13.15a2.65 2.65 0 011.86-.76 2.68 2.68 0 011.89.79l8.84 8.89a2.68 2.68 0 01.8 1.93 2.61 2.61 0 01-.09.69h.4A3.92 3.92 0 0036 24a3.11 3.11 0 00-.91-2.22l-8.84-8.88a3.06 3.06 0 00-2.14-.9 3 3 0 00-2.13.87l-9 8.84a3.07 3.07 0 00-.98 2.22 3.13 3.13 0 00.92 2.24l9 8.94a3.05 3.05 0 002.15.89 3 3 0 002.14-.9l5.44-5.45h-.54L26 34.83a2.66 2.66 0 01-3.76 0l-9-8.94a2.74 2.74 0 01-.81-2A2.79 2.79 0 0113.2 22z"
+                transform="translate(-12 -12)"
+              />
+              <path
+                class="cls-1"
+                d="M27.13 22h-6.49a1.47 1.47 0 00-1.46 1.48v2.79h1.87v1.94h5.63v-1.99h1.92v-2.79A1.47 1.47 0 0027.13 22zm-1.33 5.19h-3.87V24.9h3.87zM27.24 24a.52.52 0 01-.52-.53.52.52 0 111 0 .52.52 0 01-.48.53z"
+                transform="translate(-12 -12)"
+              />
+              <path class="cls-1" d="M9.05 7.69h5.63V9.4H9.05z" />
+            </svg>
+            <span class="ml-4">Impresión</span>
+          </dt>
+          <dd class="md:ml-8 mt-4 ml-0">
+            Tenemos la capacidad de reproducir sus diseños en diversos sistemas
+            de impresión.
+          </dd>
+        </li>
+        <li class="md:w-1/3 md:mt-0 mt-4 w-full flex flex-col">
+          <dt class="flex items-center text-purple-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 "
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <defs />
+              <path
+                class="cls-1"
+                d="M35.09 21.79l-8.84-8.89a3.06 3.06 0 00-2.14-.9 3 3 0 00-2.13.87l-9 8.84a3.07 3.07 0 00-.98 2.22 3.13 3.13 0 00.92 2.24l9 8.94a3.05 3.05 0 002.15.89 3 3 0 002.14-.9l5.44-5.45h-.54L26 34.83a2.66 2.66 0 01-3.76 0l-9-8.94a2.74 2.74 0 01-.81-2A2.79 2.79 0 0113.2 22l9-8.83a2.65 2.65 0 011.86-.76 2.68 2.68 0 011.89.79l8.84 8.89a2.68 2.68 0 01.8 1.93 2.61 2.61 0 01-.09.69h.4A3.92 3.92 0 0036 24a3.11 3.11 0 00-.91-2.21z"
+                transform="translate(-12 -12)"
+              />
+              <ellipse class="cls-1" cx="9.4" cy="9.75" rx=".73" ry=".74" />
+              <ellipse class="cls-1" cx="9.4" cy="13.33" rx=".73" ry=".74" />
+              <path
+                class="cls-1"
+                d="M24.12 27.19a3.28 3.28 0 01.15 1h5c-.08-4-2.18-4.83-2.18-4.83a1.83 1.83 0 001-1.64 1.85 1.85 0 00-1.67-1.84h-5a1.83 1.83 0 00-1.75 1.84A1.85 1.85 0 0021 23.56a1.85 1.85 0 00.44 3.63h2.72zM27 23.81s1.72.51 1.88 3.89h-4.19s-.34-3-1.57-3.89zm-7-2a1.52 1.52 0 111.52 1.54 1.52 1.52 0 01-1.62-1.58zm0 3.58a1.52 1.52 0 113 0v.54l-.06.05-.36.25h-.52a1.53 1.53 0 01-2.16-.88z"
+                transform="translate(-12 -12)"
+              />
+            </svg>
+            <span class="ml-4">Offset</span>
+          </dt>
+          <dd class="md:ml-8 mt-4 ml-0">
+            Cuidamos los trabajos de nuestros clientes desde el diseño, entrada
+            a preprensa, impresión en prensa offset y acabados.
+          </dd>
+        </li>
+      </ul>
+      <ul
+        class="md:mt-8 md:flex-row md:text-xl lg:text-3xl flex-col flex mt-4 w-full text-xl text-gray-900 font-thin leading-none"
+      >
+        <li class="md:w-1/3 md:mt-0 mt-4 w-full flex flex-col">
+          <dt class="flex items-center text-purple-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 "
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <defs />
+              <path
+                class="cls-1"
+                d="M35.09 21.79l-8.84-8.89a3.06 3.06 0 00-2.14-.9 3 3 0 00-2.13.87l-9 8.84a3.07 3.07 0 00-.98 2.22 3.13 3.13 0 00.92 2.24l9 8.94a3.05 3.05 0 002.15.89 3 3 0 002.14-.9l5.44-5.45h-.54L26 34.83a2.66 2.66 0 01-3.76 0l-9-8.94a2.74 2.74 0 01-.81-2A2.79 2.79 0 0113.2 22l9-8.83a2.65 2.65 0 011.86-.76 2.68 2.68 0 011.89.79l8.84 8.89a2.68 2.68 0 01.8 1.93 2.61 2.61 0 01-.09.69h.4A3.92 3.92 0 0036 24a3.11 3.11 0 00-.91-2.21z"
+                transform="translate(-12 -12)"
+              />
+              <path
+                class="cls-1"
+                d="M24.42 31.18s.41-1.84.8-3.88a7.68 7.68 0 001.07 1.83v.05l.21-.1a18.47 18.47 0 01-1.08-2.94 31 31 0 00.48-3.8 11.87 11.87 0 00-.53-4.34c0-.38.05-.6.05-.6a29.29 29.29 0 00-3.07 1.25L22 28.76a9.86 9.86 0 01-.74.75l.15.18s.35-.32.7-.7l2.37.9c-.16.74-.27 1.22-.27 1.24zm.37-5.86l.2.16-.22.22c.01-.12.01-.25.02-.38zm0 .74l.37-.38a4.46 4.46 0 00.08.46L25 27.29l-.32.07c.01-.42.04-.85.07-1.3zm1 1.81c-.14-.28-.28-.59-.42-.88l.06-.34c.03.42.18.84.32 1.22zm-.06-5.54a25.47 25.47 0 01-.36 3.08v-.07h-.08l-.48-.34c.17-2.41.38-5 .5-6.44a12.86 12.86 0 01.38 3.77zm-1 5.27l.29-.06c-.12.64-.25 1.26-.36 1.79-.06-.5-.04-1.08-.01-1.73z"
+                transform="translate(-12 -12)"
+              />
+            </svg>
+            <span class="ml-4">Display</span>
+          </dt>
+          <dd class="md:ml-8 mt-4 ml-0">
+            Instalación de displays y stands para optimizar el desplazamiento en
+            el Punto de Venta.
+          </dd>
+        </li>
+        <li class="md:w-1/3 md:mt-0 mt-4 w-full flex flex-col">
+          <dt class="flex items-center text-purple-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 "
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <defs />
+              <path
+                class="cls-1"
+                d="M35.09 21.79l-8.84-8.89a3.06 3.06 0 00-2.14-.9 3 3 0 00-2.13.87l-9 8.84a3.07 3.07 0 00-.98 2.22 3.13 3.13 0 00.92 2.24l9 8.94a3.05 3.05 0 002.15.89 3 3 0 002.14-.9l5.44-5.45h-.54L26 34.83a2.66 2.66 0 01-3.76 0l-9-8.94a2.74 2.74 0 01-.81-2A2.79 2.79 0 0113.2 22l9-8.83a2.65 2.65 0 011.86-.76 2.68 2.68 0 011.89.79l8.84 8.89a2.68 2.68 0 01.8 1.93 2.61 2.61 0 01-.09.69h.4A3.92 3.92 0 0036 24a3.11 3.11 0 00-.91-2.21z"
+                transform="translate(-12 -12)"
+              />
+              <path
+                class="cls-1"
+                d="M21.05 28.82h7.2v-8.08H27a1.77 1.77 0 00-.08-.31h.88v-.31h-1a2 2 0 00-1.38-1 2 2 0 00-3.38 1H20.4v8.31h.35v-8H22v.1a1.48 1.48 0 000 .21h-.93zm5.45-8.39a1.6 1.6 0 01.1.31h-.66a1.48 1.48 0 000-.21v-.1zm-.18-.31h-.41a2.16 2.16 0 00-.16-.49 1.69 1.69 0 01.57.49zm-.75.41a1.48 1.48 0 010 .21h-2.1a1.6 1.6 0 01.1-.31h2zm-.38-1.06a1.61 1.61 0 01.33.65h-1.77a1.59 1.59 0 011.25-.66zM24 18.88a1.6 1.6 0 01.79.21 2 2 0 00-1.46 1h-.93a1.62 1.62 0 011.6-1.21zm-1.6 1.55h.8a1.77 1.77 0 00-.08.31h-.71a1.49 1.49 0 010-.21s-.05-.07-.05-.1z"
+                transform="translate(-12 -12)"
+              />
+            </svg>
+            <span class="ml-4">Textiles</span>
+          </dt>
+          <dd class="md:ml-8 mt-4 ml-0">
+            Confeccionamos productos como bolsas ecológicas, bolsas de
+            gabardina, manta y yute, gorras, mandiles, etc.
+          </dd>
+        </li>
+        <li class="md:w-1/3 md:mt-0 mt-4 w-full flex flex-col">
+          <dt class="flex items-center text-purple-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-16 w-16 "
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10.23 1.15a2.65 2.65 0 011.86-.76 2.68 2.68 0 011.89.79l8.84 8.89a2.68 2.68 0 01.8 1.93 2.61 2.61 0 01-.09.69h.4A3.92 3.92 0 0024 12a3.11 3.11 0 00-.91-2.22L14.25.9a3.06 3.06 0 00-2.14-.9 3 3 0 00-2.13.87l-9 8.84A3.07 3.07 0 000 11.93a3.13 3.13 0 00.92 2.24l9 8.94a3.05 3.05 0 002.15.89 3 3 0 002.14-.9l5.44-5.45h-.54L14 22.83a2.66 2.66 0 01-3.76 0l-9-8.94a2.74 2.74 0 01-.81-2A2.79 2.79 0 011.2 10z"
+              />
+              <path
+                d="M17.59 9.91c-.38-.35-1.8-2.33-1.8-2.33a.48.48 0 00-.34-.27c-.27-.08-1.8-.74-1.8-.74a1.79 1.79 0 01-3.3 0s-1.53.66-1.8.74a.51.51 0 00-.34.27s-1.42 2-1.8 2.33-.23.5-.23.5a2.32 2.32 0 001.42 1c.49.12.53-.11.53-.11l.73-1.13a20.8 20.8 0 010 6.64c-.08.51.8.43.8.43h4.68s.88.08.8-.43a20.8 20.8 0 010-6.64l.73 1.13s0 .23.53.11a2.29 2.29 0 001.42-1s.18-.15-.23-.5zM8 11.12a.16.16 0 01-.16.1 3.67 3.67 0 01-1.33-.89.16.16 0 010-.22.16.16 0 01.22 0 3.33 3.33 0 001.19.78.16.16 0 01.08.23zm6.52-1.52h-1.87v-.39h1.88zm3 .72a3.67 3.67 0 01-1.33.89.14.14 0 01-.15-.1.14.14 0 01.08-.2 3.33 3.33 0 001.19-.78.16.16 0 01.22 0 .16.16 0 01-.01.19z"
+              />
+            </svg>
+            <span class="ml-4">Uniformes</span>
+          </dt>
+          <dd class="md:ml-8 mt-4 ml-0">
+            Diseñamos, confeccionamos y fabricamos uniformes empresariales,
+            deportivos e industriales.
+          </dd>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
