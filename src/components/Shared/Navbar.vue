@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="md:hidden z-10 w-full p-2 absolute">
+    <nav class="md:hidden z-99 w-full p-2 absolute">
       <div class="flex flex-col items-end">
         <div class="flex items-center w-full justify-between">
           <svg class="w-32 h-16" viewBox="0 0 453.5 226.8">
@@ -75,7 +75,7 @@
       </div>
     </nav>
     <!-- Desktop Navbar-->
-    <nav class="hidden md:block z-10 w-full p-2 absolute">
+    <nav class="hidden md:block z-99 w-full p-2 absolute">
       <div class="flex flex-col items-end">
         <div class="flex items-center w-full justify-between">
           <svg class="w-32 h-16" viewBox="0 0 453.5 226.8">
@@ -154,6 +154,11 @@ export default {
   },
   methods: {
     closeMenu() {
+      this.menuIsOpen = false;
+    }
+  },
+  watch: {
+    $route(to, from) {
       this.menuIsOpen = false;
     }
   }

@@ -29,7 +29,10 @@
               <div class="mt-1 w-22 h-22 shadow-md bg-white rounded-lg"></div>
             </div>
           </div>
-          <a class="mt-2 mr-12 self-end text-sm text-white flex items-center"
+          <router-link
+            :to="'/catalogo'"
+            class="md:text-xl mt-2 font-bold self-end text-lg text-white flex
+            items-center"
             >Ver más<span>
               <svg
                 fill="none"
@@ -44,7 +47,7 @@
                   d="M9 5l7 7-7 7"
                 ></path></svg
             ></span>
-          </a>
+          </router-link>
         </div>
       </section>
     </section>

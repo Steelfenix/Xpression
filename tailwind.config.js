@@ -1,5 +1,10 @@
 module.exports = {
   theme: {
+    zIndex: {
+      '98': 98,
+      '99': 99,
+      '-10': '-10'
+    },
     extend: {
       spacing: {
         '18': '4.375rem',
@@ -17,8 +22,13 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', 'Sans-serif']
       },
-      zIndex: {
-        '-10': '-10'
+      rotate: {
+        '-15': '-15deg',
+        '-5': '-5deg',
+        '5': '5deg',
+        '15': '15deg',
+        '25': '25deg',
+        '35': '35deg'
       }
     }
   },
