@@ -2201,15 +2201,15 @@
         class="lg:h-272 md:h-252 absolute overflow-hidden gradient-background w-full transform origin-top-left -skew-y-12 shadow-md"
       >
         <span
-          style="top:136px"
+          style="top:280px"
           class="absolute right-0 h-16 w-32 bg-pink-500"
         ></span>
         <span
-          style="top: 608px"
+          style="top: 768px"
           class="absolute right-0 h-16 w-48 bg-pink-500"
         ></span>
         <span
-          style="top: 672px"
+          style="top: 832px"
           class="absolute right-0 h-16 w-64 bg-pink-600"
         ></span>
       </div>

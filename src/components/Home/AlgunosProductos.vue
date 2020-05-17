@@ -76,12 +76,23 @@
           </h2>
           <div class="flex flex-col items-center">
             <div class="flex flex-row mt-8">
-              <div class="w-96 h-96 shadow-md bg-white rounded-lg"></div>
-              <div class="flex-col ml-1">
-                <div class="w-41 h-41 shadow-md bg-white rounded-lg"></div>
-                <div class="mt-1 w-41 h-41 shadow-md bg-white rounded-lg"></div>
+              <div
+                class="w-96 h-96 p-4 bg-white shadow-lg rounded-sm transform -rotate-5 overflow-hidden"
+              >
+                <img class="h-full w-full object-cover" :src="images[0]" />
               </div>
-              <div class="ml-1 w-41 h-96 shadow-md bg-white rounded-lg"></div>
+              <div class="flex-col ml-8">
+                <div
+                  class="w-41 h-41 p-4 bg-white shadow-lg rounded-sm transform rotate-15 overflow-hidden"
+                >
+                  <img class="h-full w-full object-cover" :src="images[1]" />
+                </div>
+                <div
+                  class="mt-4 w-41 h-41 p-4 bg-white shadow-lg rounded-sm transform rotate-5 overflow-hidden"
+                >
+                  <img class="h-full w-full object-cover" :src="images[2]" />
+                </div>
+              </div>
             </div>
             <router-link
               :to="'/catalogo'"
@@ -111,6 +122,15 @@
 
 <script>
 export default {
-  name: 'AlgunosProductos'
+  name: 'AlgunosProductos',
+  data() {
+    return {
+      images: [
+        require('@/assets/img/playeras/84068256_101758401410923_74868375255252992_n.jpg'),
+        require('@/assets/img/agendas/agenda4.png'),
+        require('@/assets/img/mochilas/mochila4.png')
+      ]
+    };
+  }
 };
 </script>
