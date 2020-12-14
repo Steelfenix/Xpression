@@ -24,14 +24,23 @@
           </h2>
           <div class="flex flex-row mt-8">
             <div class="w-48 h-48 shadow-md bg-white rounded-lg">
-              <img class="h-full w-full object-cover rounded-lg" :src="images[0]" />
+              <img
+                class="h-full w-full object-cover rounded-lg"
+                :src="images[0]"
+              />
             </div>
             <div class="flex-col ml-1">
               <div class="w-22 h-22 shadow-md bg-white rounded-lg">
-                <img class="h-full w-full object-cover rounded-lg" :src="images[1]" />
+                <img
+                  class="h-full w-full object-cover rounded-lg"
+                  :src="images[1]"
+                />
               </div>
               <div class="mt-1 w-22 h-22 shadow-md bg-white rounded-lg">
-                <img class="h-full w-full object-cover rounded-lg" :src="images[2]" />
+                <img
+                  class="h-full w-full object-cover rounded-lg"
+                  :src="images[2]"
+                />
               </div>
             </div>
           </div>
@@ -132,9 +141,9 @@ export default {
   data() {
     return {
       images: [
-        require('@/assets/img/playeras/camisa4.jpg'),
-        require('@/assets/img/agendas/agenda4.png'),
-        require('@/assets/img/mochilas/mochila4.png')
+        'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/playeras/camisa4.jpg',
+        'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/agendas/agenda4.png',
+        'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/mochilas/mochila4.png'
       ]
     };
   }

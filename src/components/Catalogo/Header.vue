@@ -58,7 +58,7 @@
             </h2>
             <div class="flex flex-row mt-8">
               <div
-                class="w-96 h-96 p-4 bg-white shadow-lg rounded-sm transform -rotate-5 overflow-hidden"
+                class="w-100 h-100 p-4 bg-white shadow-lg rounded-sm transform -rotate-5 overflow-hidden"
               >
                 <img
                   class="h-full w-full object-cover"
@@ -67,7 +67,7 @@
               </div>
               <div class="flex-col ml-8">
                 <div
-                  class="w-41 h-41 p-4 bg-white shadow-lg rounded-sm transform rotate-15 overflow-hidden"
+                  class="w-44 h-44 p-4 bg-white shadow-lg rounded-sm transform rotate-15 overflow-hidden"
                 >
                   <img
                     class="h-full w-full object-cover"
@@ -75,7 +75,7 @@
                   />
                 </div>
                 <div
-                  class="mt-4 w-41 h-41 p-4 bg-white shadow-lg rounded-sm transform rotate-5 overflow-hidden"
+                  class="mt-4 w-44 h-44 p-4 bg-white shadow-lg rounded-sm transform rotate-5 overflow-hidden"
                 >
                   <img
                     class="h-full w-full object-cover"
@@ -105,91 +105,81 @@ export default {
         {
           sectionName: 'Playeras',
           photos: [
-            require('@/assets/img/playeras/camisa1.jpg'),
-            require('@/assets/img/playeras/camisa2.jpg'),
-            require('@/assets/img/playeras/camisa3.jpg'),
-            require('@/assets/img/playeras/camisa4.jpg'),
-            require('@/assets/img/playeras/camisa5.jpg')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/playeras/camisa1.jpg',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/playeras/camisa2.jpg',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/playeras/camisa3.jpg'
+          ]
+        },
+        {
+          sectionName: 'Seguridad',
+          photos: [
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/seguridad/seguridad1.jpg',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/seguridad/seguridad2.jpg',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/seguridad/seguridad3.png'
           ]
         },
         {
           sectionName: 'Térmos',
           photos: [
-            require('@/assets/img/termos/termo1.png'),
-            require('@/assets/img/termos/termo2.png'),
-            require('@/assets/img/termos/termo3.png'),
-            require('@/assets/img/termos/termo4.png'),
-            require('@/assets/img/termos/termo5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/termos/termo1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/termos/termo2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/termos/termo3.png'
           ]
         },
         {
           sectionName: 'Tazas',
           photos: [
-            require('@/assets/img/tazas/taza1.png'),
-            require('@/assets/img/tazas/taza2.png'),
-            require('@/assets/img/tazas/taza3.png'),
-            require('@/assets/img/tazas/taza4.png'),
-            require('@/assets/img/tazas/taza5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/tazas/taza1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/tazas/taza2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/tazas/taza3.png'
           ]
         },
         {
           sectionName: 'Agendas',
           photos: [
-            require('@/assets/img/agendas/agenda1.png'),
-            require('@/assets/img/agendas/agenda2.png'),
-            require('@/assets/img/agendas/agenda3.png'),
-            require('@/assets/img/agendas/agenda4.png'),
-            require('@/assets/img/agendas/agenda5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/agendas/agenda1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/agendas/agenda2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/agendas/agenda3.png'
           ]
         },
         {
           sectionName: 'Boligrafos',
           photos: [
-            require('@/assets/img/boligrafos/boligrafo1.png'),
-            require('@/assets/img/boligrafos/boligrafo2.png'),
-            require('@/assets/img/boligrafos/boligrafo3.png'),
-            require('@/assets/img/boligrafos/boligrafo4.png'),
-            require('@/assets/img/boligrafos/boligrafo5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/boligrafos/boligrafo1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/boligrafos/boligrafo2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/boligrafos/boligrafo3.png'
           ]
         },
         {
           sectionName: 'Gorras',
           photos: [
-            require('@/assets/img/gorras/gorra1.png'),
-            require('@/assets/img/gorras/gorra2.png'),
-            require('@/assets/img/gorras/gorra3.png'),
-            require('@/assets/img/gorras/gorra4.png'),
-            require('@/assets/img/gorras/gorra5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/gorras/gorra1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/gorras/gorra2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/gorras/gorra3.png'
           ]
         },
         {
           sectionName: 'Lonchera',
           photos: [
-            require('@/assets/img/loncheras/lonchera1.png'),
-            require('@/assets/img/loncheras/lonchera2.png'),
-            require('@/assets/img/loncheras/lonchera3.png'),
-            require('@/assets/img/loncheras/lonchera4.png'),
-            require('@/assets/img/loncheras/lonchera5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/loncheras/lonchera1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/loncheras/lonchera2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/loncheras/lonchera3.png'
           ]
         },
         {
           sectionName: 'Mochilas',
           photos: [
-            require('@/assets/img/mochilas/mochila1.png'),
-            require('@/assets/img/mochilas/mochila2.png'),
-            require('@/assets/img/mochilas/mochila3.png'),
-            require('@/assets/img/mochilas/mochila4.png'),
-            require('@/assets/img/mochilas/mochila5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/mochilas/mochila1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/mochilas/mochila2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/mochilas/mochila3.png'
           ]
         },
         {
           sectionName: "USB's",
           photos: [
-            require('@/assets/img/usb/usb1.png'),
-            require('@/assets/img/usb/usb2.png'),
-            require('@/assets/img/usb/usb3.png'),
-            require('@/assets/img/usb/usb4.png'),
-            require('@/assets/img/usb/usb5.png')
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/usb/usb1.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/usb/usb2.png',
+            'https://xpression-publicity-images.s3-us-west-1.amazonaws.com/usb/usb3.png'
           ]
         }
       ]
