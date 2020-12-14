@@ -105,11 +105,11 @@ export default {
         {
           sectionName: 'Playeras',
           photos: [
-            require('@/assets/img/playeras/88035226_115924329994330_6374896820740423680_o.png'),
-            require('@/assets/img/playeras/83193536_101758741410889_4526633201971494912_n.jpg'),
-            require('@/assets/img/playeras/84068256_101758401410923_74868375255252992_n.jpg'),
-            require('@/assets/img/playeras/85066121_101758354744261_5981152343805132800_n.jpg'),
-            require('@/assets/img/playeras/85214653_101758668077563_6152360756814807040_n.jpg')
+            require('@/assets/img/playeras/camisa1.jpg'),
+            require('@/assets/img/playeras/camisa2.jpg'),
+            require('@/assets/img/playeras/camisa3.jpg'),
+            require('@/assets/img/playeras/camisa4.jpg'),
+            require('@/assets/img/playeras/camisa5.jpg')
           ]
         },
         {

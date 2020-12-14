@@ -23,10 +23,16 @@
             Algunos de Nuestros Productos
           </h2>
           <div class="flex flex-row mt-8">
-            <div class="w-48 h-48 shadow-md bg-white rounded-lg"></div>
+            <div class="w-48 h-48 shadow-md bg-white rounded-lg">
+              <img class="h-full w-full object-cover rounded-lg" :src="images[0]" />
+            </div>
             <div class="flex-col ml-1">
-              <div class="w-22 h-22 shadow-md bg-white rounded-lg"></div>
-              <div class="mt-1 w-22 h-22 shadow-md bg-white rounded-lg"></div>
+              <div class="w-22 h-22 shadow-md bg-white rounded-lg">
+                <img class="h-full w-full object-cover rounded-lg" :src="images[1]" />
+              </div>
+              <div class="mt-1 w-22 h-22 shadow-md bg-white rounded-lg">
+                <img class="h-full w-full object-cover rounded-lg" :src="images[2]" />
+              </div>
             </div>
           </div>
           <router-link
@@ -126,7 +132,7 @@ export default {
   data() {
     return {
       images: [
-        require('@/assets/img/playeras/84068256_101758401410923_74868375255252992_n.jpg'),
+        require('@/assets/img/playeras/camisa4.jpg'),
         require('@/assets/img/agendas/agenda4.png'),
         require('@/assets/img/mochilas/mochila4.png')
       ]
